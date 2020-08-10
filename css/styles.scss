@@ -74,3 +74,22 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-content {
+    .modal-header {
+        background: $background-dark;
+        color:floralwhite;
+        .close {
+            color:$lt-gray;
+            opacity: 1;
+        }
+        .close:hover {
+            color:floralwhite;
+            opacity: 1;
+        }
+    }
+    
+    .modal-body {
+        background: $background-pale;
+    }
+}
